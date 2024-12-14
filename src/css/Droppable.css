@@ -1,0 +1,156 @@
+.droppable-container {
+  margin-top: 30px;
+  padding: 20px 20px 40px 40px;
+  background: #f5f5f5;
+  /* background-color: red; */
+  border-radius: 8px;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 20px 20px 38px 20px;
+  position: relative;
+  width: 100%;
+}
+.button-clear {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: 400;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+.button-clear:hover {
+  color: black;
+  box-shadow: 0px 0px 20px 0px #ddd;
+}
+
+.chart-container {
+  height: 100%;
+  width: 100%;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
+  /* background-color: red; */
+}
+
+.drop-zone {
+  height: 100%;
+  width: 100%;
+}
+
+.dropped-item {
+  height: 100%;
+  width: 100%;
+  position: "relative";
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.position-relative {
+  height: 100%;
+  width: 100%;
+}
+
+.hover-button {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.position-relative:hover .hover-button {
+  display: block;
+  border: none;
+  background-color: #9a95f2;
+  outline: none;
+  top: -20px;
+  right: 40px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.bar-graph-bottom-container-chart {
+  padding: 0px;
+  margin: 10px;
+  cursor: pointer;
+  transform: rotate(180deg);
+  height: 100%;
+  width: 100%;
+}
+.bar-graph-container-chart {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0px;
+  margin: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.bar-graph-bottom-container-chart:hover {
+  background-color: rgb(205, 204, 248);
+  display: block;
+}
+
+.bar-graph-container-chart:hover {
+  display: block;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(205, 204, 248);
+}
+
+.inner-bars-chart {
+  background-color: #9a95f2;
+  height: 30px;
+  color: white;
+  transform: rotate(180deg);
+}
+
+.inner-bar-chart {
+  background-color: #9a95f2;
+  height: 30px;
+  color: white;
+}
+
+.activities-container {
+  margin-top: 50px;
+}
+
+.distance-scale-container {
+  margin-top: 30px;
+  height: 40px;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.distance-scale-item {
+  /* background-color: red; */
+  text-align: left;
+  margin: 2px;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding-right: 6px;
+  color: #9a95f2;
+}
+.scale-container {
+  /* background-color: red; */
+  margin-top: -5px;
+  box-sizing: border-box;
+  padding-right: 0px;
+}

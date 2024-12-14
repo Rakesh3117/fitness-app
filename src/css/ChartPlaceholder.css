@@ -1,0 +1,30 @@
+.bar1 {
+  background-color: rgb(189, 186, 186);
+  height: 25%;
+}
+
+.bar2 {
+  background-color: rgb(189, 186, 186);
+  height: 50%;
+}
+
+.bar3 {
+  background-color: rgb(189, 186, 186);
+  height: 25%;
+}
+
+.empty-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  height: 100%;
+  position: relative;
+}
+
+.placeholder-text {
+  font-size: 30px;
+  color: #9a95f2;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}

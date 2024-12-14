@@ -1,11 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import DragDropWorkoutWithGraphs from './drag'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Workout from "./pages/Workout";
 
-export default function App() {
+function App() {
   return (
- <DragDropWorkoutWithGraphs/>
-  )
+    <div>
+      <div className="app-container-manual">
+        <Navbar />
+      </div>
+      <Workout />
+    </div>
+  );
 }
+
+export default App;
