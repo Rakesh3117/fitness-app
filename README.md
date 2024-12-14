@@ -39,7 +39,7 @@ To run this application, ensure you have the following installed:
 ### Installation Steps
 1. Clone the repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Rakesh3117/fitness-app
    cd fitness-app
    ```
 
@@ -52,14 +52,16 @@ To run this application, ensure you have the following installed:
 
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    # or
-   yarn start
+   yarn run dev
+   # or
+   yarn dev
    ```
 
 4. Open your browser and navigate to:
    ```
-   http://localhost:3000
+   http://localhost:5137
    ```
 
 ### Usage
@@ -102,7 +104,7 @@ To run this application, ensure you have the following installed:
 The application is deployed on **Netlify**, making it accessible online.
 
 ### Netlify Link
-[Fitness App on Netlify](<insert-your-netlify-link-here>)
+[Fitness App on Netlify](https://gnanendra-spurfit-fitness-app.netlify.app/)
 
 ---
 
